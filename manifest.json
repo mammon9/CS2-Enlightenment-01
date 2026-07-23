@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Ephemeral Session Demo",
+  "version": "1.0.0",
+  "description": "A safe Manifest V3 example for explicit, short-lived local state.",
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Ephemeral Session Demo",
+    "default_popup": "popup.html"
+  }
+}

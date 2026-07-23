@@ -1,0 +1,14 @@
+:root {
+  color-scheme: dark;
+  font-family: system-ui, sans-serif;
+  background: #10151d;
+  color: #edf2f7;
+}
+
+body { width: 320px; margin: 0; }
+main { padding: 16px; }
+h1 { margin: 0; font-size: 17px; }
+p, output { display: block; margin: 12px 0; color: #b9c4d0; font-size: 13px; line-height: 1.5; }
+output { color: #79d9ad; font-family: ui-monospace, monospace; }
+button { width: 100%; min-height: 38px; margin-top: 8px; border: 1px solid #405065; border-radius: 5px; background: #1b2532; color: inherit; cursor: pointer; }
+button:hover { background: #263549; }
